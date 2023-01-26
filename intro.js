@@ -7,7 +7,9 @@ var orangeQuantity = 2;
 var appleQuantity = 1;
 var totalPrice = (orangePrice * 1) + (applePrice * 2);
 var moneyRemaining = moneyHad - totalPrice;
-console.log(moneyRemaining)
+// console.log(moneyRemaining)
+
+document.getElementById("p1ans").innerHTML = moneyRemaining;
 
 // problem 2: Write a program to calculate the average marks of Mathematics, Biology, Chemistry, Physics, and Bangla of a student. The obtained numbers are respectively 75.25 , 65, 80, 35.45, 99.50 
 
@@ -21,14 +23,18 @@ var totalSubject = 5;
 var averageMark = totalMark / totalSubject;
 averageMark = averageMark.toFixed(2)
 averageMark = parseFloat(averageMark)
-console.log(averageMark)
+// console.log(averageMark)
+
+document.getElementById("p2ans").innerHTML = averageMark;
 
 // problem 3: John's teacher gave him two variables. First one "I am going to be" and second one "an awesome web developer". Each variable contains a string. John's teacher asked him to combine these two strings and print them in one line. Help John write the program. 
 
 var part1 = "I am going to be"
-var part2 = "an awesome web developer"
-var sentence = part1 + part2;
-console.log(sentence)
+var part2 = "an awesome web developer."
+var sentence = part1 + " " + part2;
+// console.log(sentence)
+
+document.getElementById("p3ans").innerHTML = sentence;
 
 // problem 4: Sarah's mother is teaching her mathematics. She gave Sarah a number 119 and asked her what the remainder would be if she divided the number by 5. Help Sarah write the program. 
 
@@ -36,3 +42,5 @@ var givenNumber = 199;
 var divideBy = 5;
 var reminder = 199 % 5;
 console.log(reminder)
+
+document.getElementById("p4ans").innerHTML = reminder;

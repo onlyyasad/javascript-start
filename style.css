@@ -1,0 +1,28 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    margin: 50px auto;
+}
+
+h1{
+    text-align: center;
+}
+.alignment{
+    max-width: 960px;
+}
+
+p{
+    margin-top: 10px;
+   
+}
+
+h3{
+    margin-top: 20px;
+}
+
+.ans{
+    font-weight: 600;
+    color: coral;
+}
